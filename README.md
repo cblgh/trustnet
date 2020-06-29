@@ -88,7 +88,7 @@ const tnet = new TrustNet() // or..
 const handler = new TrustHandler(["moderation", "music recommendations"])
 ```
 
-# `TrustNet(opts)`
+## `TrustNet(opts)`
 ### opts.threshold
 Default value of `0.50`. Sets the threshold determining which trust assignments are regarded as too low for a accurate trust computation (see meta-ranking trust strategy in paper or article).
 
@@ -116,7 +116,7 @@ Synchronous, requires having run `load()` at least once.
 
 Returns a mapping of `id -> trust rank` of the most trusted nodes, as seen from the trust source passed into `load()`. Only returns non-zero mappings.
 
-# `TrustHandler(areas=[])`
+## `TrustHandler(areas=[])`
 
 Also allows passing in areas as an object mapping trust area to its opts, see `TrustNet` for which opts are applicable.
 
@@ -132,21 +132,21 @@ const handler = new TrustHandler({ "moderation": { threshold: 0.75 }, "recommend
 Same as `TrustNet.load` except it takes an `area`, representing the trust area.
 * `area` name of the trust area to perform trust computations for. If the trust area is being added for the first time, a call to `TrustHandler.add(area)` will be issued.
 
-## TrustNet.getMostTrusted() 
+## TrustHandler.getMostTrusted() 
 Synchronous, requires having run `load()` or `loadAll()` at least once.
 
 Same as `TrustNet.getMostTrusted` except it takes an `area`, representing the trust area.
 
 Returns the ids of the most trusted nodes, as seen from the trust source passed into `load()`.
 
-## TrustNet.getAllTrusted() 
+## TrustHandler.getAllTrusted() 
 Synchronous, requires having run `load()` or `loadAll()` at least once.
 
 Same as `TrustNet.getAllTrusted` except it takes an `area`, representing the trust area.
 
 Returns the ids of all nodes with a non-zero ranking, as seen from the trust source passed into `load()`.
 
-## TrustNet.getRankings() 
+## TrustHandler.getRankings() 
 Synchronous, requires having run `load()` or `loadAll()` at least once.
 
 Same as `TrustNet.getRankings` except it takes an `area`, representing the trust area.
