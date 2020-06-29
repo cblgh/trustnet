@@ -1,0 +1,24 @@
+{
+  "name": "trustnet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "$(npm bin)/tape test/*.js | $(npm bin)/tap-spec"
+  },
+  "author": "Alexander Cobleigh",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "seedrandom": "^3.0.5",
+    "simple-statistics": "^7.0.5",
+    "trustnet-graph": "^1.0.0"
+  },
+  "devDependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^4.11.0"
+  }
+}
