@@ -53,7 +53,7 @@ A **trust assignment** has a trust source, a trust target (or destination), and 
 
 
 | Term | Description					    										|
-|-----------------------------------------------------------------------------------|
+|-------------------------|----------------------------------------------------------|
 | **Trust Source**   | The issuer of a trust assignment. 							|
 | **Trust Target**   | The target of a trust assignment; the entity being trusted. 	|
 | **Trust Weight**   | The amount of trust assigned to trust target.  				|
