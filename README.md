@@ -12,7 +12,7 @@ TrustNet has support for:
 * discarding statements from distrusted nodes, and 
 * **computing the subjectively most trusted nodes**, as seen from a particular node.
 
-TrustNet is the result of over 1 year of research into systems for transitive and computational trust. [Read the 103-page report](https://cblgh.org/dl/trustnet-cblgh.pdf), or the shorter [blog post](https://cblgh.org/articles/trustnet.html).
+TrustNet is the result of over 1 year of research into systems for transitive and computational trust. [Read the 103-page report](http://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=9020253&fileOId=9020270), or the shorter [blog post](https://cblgh.org/articles/trustnet.html).
 
 See the [`examples/`](./examples/) folder for short snippets on how to use the system.
 
