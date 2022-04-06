@@ -15,6 +15,7 @@
     "debug": "^4.1.1",
     "seedrandom": "^3.0.5",
     "simple-statistics": "^7.0.5",
+    "appleseed-metric": "^1.0.1",
     "trustnet-graph": "^1.0.0"
   },
   "devDependencies": {
